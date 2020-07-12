@@ -1,11 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-square',
-  templateUrl: './square.component.html',
-  styleUrls: ['./square.component.scss']
+  template: `
+    <p>
+      square works!
+    </p>
+  `,
+  styles: [
+  ]
 })
-export class SquareComponent implements OnInit {
+export class SquareComponent{
 
   constructor() { }
 
